@@ -313,3 +313,68 @@ main #safe img {
 .questions details[closed] p {
   opacity: 0;
 }
+
+.feedbacks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 100px 16%;
+    gap: 12px;
+}
+
+.feedbacks h6 {
+    color: var(--green);
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.feedbacks h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.05;
+}
+
+.feedbacks .cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feedbacks .card {
+    background-color: var(--white);
+    border: solid 1px rgba(128, 128, 128, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 300px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 30px;
+    width: 100%;
+}
+
+.feedbacks .card img {
+    background-color: #15473228;
+    padding: 10px;
+    border-radius: 4px;
+    width: 40px;
+}
+
+.feedbacks .card p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.feedbacks .card .person {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.feedbacks .card .from {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 500;
+}
