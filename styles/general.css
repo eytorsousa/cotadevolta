@@ -53,3 +53,7 @@ a {
 .white {
     background-color: var(--white);
 }
+
+.green {
+    background-color: var(--green);
+}

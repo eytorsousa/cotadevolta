@@ -1,5 +1,4 @@
 main {
-    background-color: var(--white);
     display: flex;
     justify-content: space-evenly;
     padding-top: 60px;
@@ -226,4 +225,91 @@ main #safe img {
     color: rgba(0, 0, 0, 0.7);
     font-weight: 500;
     margin-top: 5px;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.faq .text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 600px;
+}
+
+.faq h6 {
+    color: var(--green);
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.faq h2 {
+    line-height: 1.05;
+    font-size: 36px;
+}
+
+.questions details {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 16px 0;
+  width: 600px;
+}
+
+.questions summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questions summary::-webkit-details-marker {
+  display: none;
+}
+
+.questions summary::after {
+  content: ">";
+  transform: rotate(90deg);
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.questions details[open] summary::after {
+  transform: rotate(270deg);
+}
+
+.questions details {
+  &::details-content {
+    transition: height 1s; 
+    transition:
+      height 0.3s,
+      content-visibility 0.3s allow-discrete;
+    overflow: hidden;
+    height: 0;
+  }
+  
+  &[open]::details-content {
+    height: auto; 
+    height: calc-size(auto); 
+    height: calc-size(auto, size);   
+  }
+}
+
+.questions details p {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.questions details[closed] p {
+  opacity: 0;
 }
