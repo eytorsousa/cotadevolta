@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/footer.css">
 
     <script src="./src/index.js" defer></script>
+    <script src="./src/progressbar.js" defer></script>
     <script src="./src/popup.js" defer></script>
     <script src="./src/mailer.js" defer></script>
 
@@ -44,7 +45,7 @@
             <img src="./assets/images/logo.svg" alt="COTA DE VOLTA - LOGO">
         </div>
         <section class="header_buttons">
-            <a href="#" target="_blank">
+            <a href="#" target="_blank" id="fhb">
                 ANALISAR EXTRATO
             </a>
             <a href="#" target="_blank">
@@ -72,7 +73,7 @@
             </p>
 
             <div class="buttons">
-                <a href="#">Quero recuperar meus valores ></a>
+                <a href="#" id="fmb">Quero recuperar meus valores ></a>
                 <a href="#">Analisar meu extrato</a>
             </div>
 
@@ -123,6 +124,8 @@
     <section class="comofunciona white">
         <h6>COMO FUNCIONA</h6>
         <h2>Um processo simples, do começo ao resultado.</h2>
+
+        <div class="progressbar"></div>
 
         <div class="steps">
             <div class="step">

@@ -104,11 +104,20 @@ header nav a:hover::after {
     border: solid 1px var(--green);
     border-radius: 7px;
     background-color: var(--white);
-    column-span: var(--green);
+    color: var(--green);
     font-size: 14px;
     font-weight: 500;
     padding: 10px;
     transition: all 0.15s ease-in-out;
+}
+
+.header_buttons #fhb {
+    background-color: var(--lgreen);
+    color: var(--white);
+}
+
+.header_buttons #fhb:hover {
+    background-color: var(--green);
 }
 
 .main_header .header_buttons a:hover {

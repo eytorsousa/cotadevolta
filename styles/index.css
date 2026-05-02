@@ -1,4 +1,5 @@
 main {
+    background-color: var(--white);
     display: flex;
     justify-content: space-evenly;
     padding-top: 60px;
@@ -39,6 +40,7 @@ main #safe img {
 .text_area h1 span {
     color: var(--green);
 }
+
 .text_area p {
     color: rgba(0, 0, 0, 0.7);
     font-size: 18px;
@@ -51,6 +53,7 @@ main #safe img {
 }
 
 .text_area .buttons a {
+    background-color: var(--white);
     border: solid 1px var(--green);
     border-radius: 6px;
     color: var(--green);
@@ -59,12 +62,20 @@ main #safe img {
     padding: 10px 20px;
     transition: all 0.15s ease-in-out;
     width: fit-content;
-
 }
 
 .text_area .buttons a:hover {
     background-color: var(--green);
     color: var(--gray);
+}
+
+.buttons #fmb {
+    background-color: var(--lgreen);
+    color: var(--white);
+}
+
+.buttons #fmb:hover {
+    background-color: var(--green);
 }
 
 .text_area .infos {
@@ -138,7 +149,7 @@ main #safe img {
 }
 
 .quemsomos .card:hover {
-    box-shadow: 0px 1px 2px;
+    box-shadow: 0px 1px 3px;
 }
 
 .quemsomos .card img {
@@ -179,6 +190,22 @@ main #safe img {
     font-weight: 600;
 }
 
+.progressbar {
+    border: solid 1px var(--green);
+    height: 1px;
+    margin-top: 15px;
+    width: 1%;
+}
+
+.progressbar.animate {
+    animation: grow 4s ease forwards;
+}
+
+@keyframes grow {
+    from { width: 1%; }
+    to {width: 100%; }
+}
+
 .comofunciona .steps {
     display: flex;
     gap: 20px;
@@ -186,7 +213,6 @@ main #safe img {
 }
 
 .steps .step {
-    border-top: solid 1px var(--green);
     padding-top: 20px;
     width: 25%;
 }
