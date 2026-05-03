@@ -82,7 +82,7 @@
   background: white;
   padding: 30px;
   border-radius: 10px;
-  width: 320px;
+  width: 500px;
   position: relative;
 }
 
@@ -96,10 +96,22 @@
   cursor: pointer;
 }
 
+.popup-content h3 {
+  color: var(--green);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.popup-content p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
 .popup-content form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 22px;
 }
 
 .popup-content label {
@@ -114,14 +126,39 @@
   border-radius: 5px;
 }
 
+.popup-content input[type="text"]:focus, .popup-content input[type="tel"]:focus {
+  border-color: var(--green);
+  box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.popup-content .radio-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popup-content .radio {
+    align-self: center;
+    gap: 20px;
+}
+
 .popup-content button[type="submit"] {
-  margin-top: 10px;
-  background: #184d3a;
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 5px;
+    background-color: var(--gray);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
+    color: var(--green);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.popup-content button[type="submit"]:hover {
+    background: #184d3a;
+    color: var(--white);
 }
 
 .splide__slide {
