@@ -449,7 +449,7 @@ main #safe img {
     margin-top: 20px;
 }
 
-.contact .buttons a {
+.contact .buttons a, .contact .buttons button {
     align-items: center;
     display: flex;
     background-color: var(--green);
@@ -473,7 +473,8 @@ main #safe img {
     height: 18px;  
 }
 
-.contact .buttons a:hover {
+.contact .buttons a:hover, .contact .buttons button:hover {
     background-color: var(--white);
     color: var(--green);
+    cursor: pointer;
 }
