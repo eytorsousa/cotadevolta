@@ -103,11 +103,7 @@ main .animation_area {
     width: 384px;
 }
 
-main .animation_area img {
-    width: 100%;
-}
-
-main .animation_area span {
+main .animation_area .text {
     align-self: center;
     color: var(--white);
     font-size: 64px;
@@ -116,8 +112,17 @@ main .animation_area span {
     text-shadow: 0px 1px 3px black;
 }
 
+main .animation_area .bg {
+    background-color: var(--green);
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
 main .animation_area .border {
-    border: solid 5px var(--green);
+    border: solid 5px var(--white);
     border-style: dashed;
     border-radius: 50%;
     height: 374px;
