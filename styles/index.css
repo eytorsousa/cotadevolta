@@ -309,9 +309,42 @@ main #safe img {
     font-size: 14px;
 }
 
-
 .questions details[closed] p {
   opacity: 0;
+}
+
+.enterprises {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 100px 16%;
+}
+
+.enterprises .text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 600px;
+}
+
+.enterprises h6 {
+    color: var(--green);
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}  
+
+.enterprises h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.enterprises p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+    width: 85%;
 }
 
 .feedbacks {

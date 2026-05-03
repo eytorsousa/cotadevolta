@@ -1,0 +1,12 @@
+ .splide__slide {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.splide__slide img {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    width: 160px;
+}
