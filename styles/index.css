@@ -477,3 +477,49 @@ main #safe img {
     background-color: var(--white);
     color: var(--green);
 }
+
+footer {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+footer .content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5%;
+    width: 100%;
+}
+
+.footerlogo {
+    border: solid 1px red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    overflow: hidden;
+    width: 260px;
+}
+
+footer img {
+    width: 150%;
+}
+
+footer .by{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 5px 0px;
+}
+
+footer .by a {
+    text-decoration: underline;
+}
