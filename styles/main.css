@@ -1,0 +1,138 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+main .text_area {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 40%;
+}
+
+main #safe {
+    align-items: center;
+    background-color: #247a561a;
+    border-radius: 50px;
+    color: var(--green);
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 8px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+main #safe img {
+    height: 12px;
+    width: 12px;
+}
+
+.text_area h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.text_area h1 span {
+    color: var(--green);
+}
+
+.text_area p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text_area .buttons {
+    display: flex;
+    gap: 40px;
+}
+
+.text_area .buttons a {
+    background-color: var(--white);
+    border: solid 1px var(--green);
+    border-radius: 6px;
+    color: var(--green);
+    font-size: 16px;
+    font-weight: 00;
+    padding: 10px 20px;
+    transition: all 0.15s ease-in-out;
+    width: fit-content;
+}
+
+.text_area .buttons a:hover {
+    background-color: var(--green);
+    color: var(--gray);
+}
+
+.buttons #fmb {
+    background-color: var(--lgreen);
+    color: var(--white);
+}
+
+.buttons #fmb:hover {
+    background-color: var(--green);
+}
+
+.text_area .infos {
+    display: flex;
+    gap: 40px;
+}
+
+.infos .info {
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.info img {
+    width: 18px;
+}
+
+main .animation_area {
+    align-self: center;
+    align-items: center;
+    display: flex;
+    height: 384px;
+    justify-content: center;
+    width: 384px;
+}
+
+main .animation_area img {
+    width: 100%;
+}
+
+main .animation_area span {
+    align-self: center;
+    color: var(--white);
+    font-size: 64px;
+    font-weight: 700;
+    position: absolute;
+    text-shadow: 0px 1px 3px black;
+}
+
+main .animation_area .border {
+    border: solid 5px var(--green);
+    border-style: dashed;
+    border-radius: 50%;
+    height: 374px;
+    position: absolute;
+    width: 374px;
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+  to {
+    transform: rotate(360deg);
+    transform-origin: center;
+  }
+}
