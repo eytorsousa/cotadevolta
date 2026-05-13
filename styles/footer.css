@@ -43,3 +43,25 @@ footer .by{
 footer .by a {
     text-decoration: underline;
 }
+
+
+@media (max-width: 600px) {
+    .footerlogo {
+        width: 200px;
+    }
+
+    footer .content p {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footerlogo {
+        width: 150px;
+    }
+
+    footer .content p {
+        font-size: 12px;
+    }
+}
