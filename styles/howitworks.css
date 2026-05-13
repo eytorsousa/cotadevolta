@@ -27,7 +27,7 @@
 }
 
 .progressbar.animate {
-    animation: grow 4s ease forwards;
+    animation: grow 5s ease forwards;
 }
 
 @keyframes grow {

@@ -32,7 +32,7 @@ img {
     font-family: var(--font-family);
 }
 
-html {
+html, body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
