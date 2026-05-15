@@ -87,15 +87,10 @@
 @media (max-width: 1024px) {
     .feedbacks {
         padding: 100px 10%;
-        align-items: center;
     }
-
-    .feedbacks h2 {
-        font-size: 28px;
-        text-align: center;
-    }
-
+    
     .feedbacks .cards {
+        align-self: center;
         flex-direction: column;
         height: fit-content;
         width: 600px;
@@ -107,8 +102,12 @@
 }
 
 @media (max-width: 768px) {
+     .feedbacks h2 {
+        font-size: 28px;
+    }
+
   .feedbacks .cards {
-        width: 400px;
+        width: 500px;
     }
 
     .feedbacks .cards p{
@@ -118,11 +117,25 @@
 }
 
 @media (max-width: 600px) {
+    .feedbacks h2 {
+        font-size: 24px;
+    }
+
     .feedbacks .cards {
-        width: 360px;
+        width: 400px;
     }
 
     .feedbacks .cards p{
         font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .feedbacks h2 {
+        font-size: 20px;
+    }
+
+    .feedbacks .cards {
+        width: 360px;
     }
 }
