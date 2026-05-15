@@ -2,13 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 100px 16%;
+    padding: 100px 15%;
     gap: 12px;
 }
 
 .howitworks h6 {
     color: var(--green);
-    font-weight: 600;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -55,4 +54,57 @@
     color: rgba(0, 0, 0, 0.7);
     font-weight: 500;
     margin-top: 5px;
+}
+
+@media (max-width: 1400px) {
+    .howitworks .steps {
+        flex-wrap: wrap;
+    }
+
+    .steps .step {
+        padding-top: 20px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .howitworks {
+        padding: 100px 10%;
+    }
+
+    .steps .step {
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+   .howitworks h2 {
+        font-size: 28px;
+   }
+}
+
+@media (max-width: 600px) {
+   .howitworks h2 {
+        font-size: 24px;
+    }
+
+    .steps .step h2 {
+        font-size: 20px;
+    }
+
+    .steps .step p {
+        font-size: 14px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .howitworks h2 {
+        font-size: 20px;
+    }
+
+    .steps .step p {
+        width: 90%;
+    }
 }
