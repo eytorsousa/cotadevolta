@@ -112,12 +112,7 @@ buttons.forEach((btn) => {
     const type = btn.dataset.type;
     const title = document.getElementById("popupTitle");
 
-    if (type === "extrato") {
-      title.textContent = "Analisar extrato";
-    } else {
-      title.textContent = "Recuperar valores";
-    }
-
+    title.textContent = "Analisar extrato";
     popup.classList.add("active");
   });
 });
