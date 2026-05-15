@@ -1,28 +1,28 @@
 .faq {
-    display: flex;
-    justify-content: center;
-    padding: 100px 15%;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 100px 15%;
+  gap: 50px;
 }
 
 .faq .text {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 600px;
 }
 
 .faq h6 {
-    color: var(--green);
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
+  color: var(--green);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .faq h2 {
-    line-height: 1.05;
-    font-size: 36px;
-    font-weight: 600;
+  line-height: 1.05;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .questions details {
@@ -74,10 +74,10 @@
 }
 
 .questions details p {
-    margin-top: 20px;
-    color: rgba(0, 0, 0, 0.8);
-    font-weight: 500;
-    font-size: 14px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .questions details[closed] p {

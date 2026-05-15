@@ -98,7 +98,7 @@
 }
 
 .popup-content button[type="submit"]:hover {
-  background: #184d3a;
+  background: var(--green);
   color: var(--white);
 }
 

@@ -12,14 +12,14 @@
 }
 
 img {
-  -webkit-user-drag: none; 
-  -khtml-user-drag: none; 
-  -o-user-drag: none; 
-  -webkit-user-select: none; 
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  user-select: none; 
-  pointer-events: none; 
+    -webkit-user-drag: none; 
+    -khtml-user-drag: none; 
+    -o-user-drag: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    pointer-events: none; 
 }
 
 * {
@@ -44,10 +44,7 @@ a {
     color: inherit;
 }
 
-img,
-button,
-a,
-div {
+img, button, a, div {
     -webkit-tap-highlight-color: transparent;
 }
 

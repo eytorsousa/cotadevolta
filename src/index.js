@@ -1,21 +1,10 @@
 const header = document.querySelector("header");
 const main_header = document.querySelector(".main_header");
 
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 250) {
-        main_header.classList.add('visible');
-        main_header.classList.remove('invisible');
-    } else {
-        main_header.classList.add('invisible');
-        main_header.classList.remove('visible');
-    }
-});
-
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
-    header.classList.add("hidden");
-  } else {
-    header.classList.remove("hidden");
-  }
-});
+    const scrolled = window.scrollY;
 
+    header.classList.toggle("hidden", scrolled > 50);
+    main_header.classList.toggle("visible", scrolled > 250);
+    main_header.classList.toggle("invisible", scrolled <= 250);
+});

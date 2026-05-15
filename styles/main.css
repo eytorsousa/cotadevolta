@@ -254,7 +254,6 @@ main .animation_area .border {
     .text_area .buttons a {
         width: 300px;
     }
-   
 }
 
 @media (max-width: 480px) {

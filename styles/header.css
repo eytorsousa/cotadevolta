@@ -13,8 +13,8 @@ header {
 }
 
 header.hidden {
-  transform: translateY(-100%);
-  opacity: 0;
+    transform: translateY(-100%);
+    opacity: 0;
 }
 
 header .social {
@@ -78,30 +78,30 @@ header nav a:hover::after {
 
 
 .main_header {
-  align-items: center;
-  border-bottom: solid 1px #ccc;
-  background-color: var(--white);
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  transform: translateY(-100%);
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  z-index: 999;
+    align-items: center;
+    border-bottom: solid 1px #ccc;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
 }
 
 .main_header.visible {
-  transform: translateY(0);
-  opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .main_header.invisible {
-  transform: translateY(-100%);
-  opacity: 0;
+    transform: translateY(-100%);
+    opacity: 0;
 }
 
 .main_header .logo {
