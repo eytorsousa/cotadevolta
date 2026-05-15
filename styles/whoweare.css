@@ -141,6 +141,7 @@
 
     .whoweare .card {
         width: 500px;
+        padding: 15px;
     }
 }
 
@@ -166,5 +167,11 @@
 
     .whoweare .card {
         width: 360px;
+    }
+}
+
+@media (max-width: 420px) {
+    .whoweare .card {
+        width: 320px;
     }
 }
