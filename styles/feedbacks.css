@@ -75,6 +75,10 @@
         padding: 100px 5%;
     }
 
+    .feedbacks h6, .feedbacks h2 {
+        padding: 0px 15%;
+    }
+
     .feedbacks .cards p{
         font-size: 14px;
     }

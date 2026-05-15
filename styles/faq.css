@@ -83,3 +83,71 @@
 .questions details[closed] p {
   opacity: 0;
 }
+
+
+@media (max-width: 1400px) {
+  .faq {
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px 15%;
+    width: 100%;
+  }
+
+  .faq .text {
+    width: 100%;
+  }
+
+  .questions {
+    width: 100%;
+  }
+
+  .questions details {
+    width: 80%;
+  }
+
+  .questions summary {
+    font-size: 18px;
+  }
+
+  .questions details p {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+   .questions details {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq {
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px 10%;
+    width: 100%;
+  }
+
+  .questions summary {
+    font-size: 16px;
+  }
+
+  .questions details p {
+    width: 95%;
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 600px) {
+  .questions summary {
+    font-size: 15px;
+  }
+
+  .questions details p {
+    width: 95%;
+    font-size: 13px;
+    text-align: justify;
+  }
+}

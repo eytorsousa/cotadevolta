@@ -32,6 +32,13 @@
     width: 85%;
 }
 
+@media (max-width: 1400px) {
+  .enterprises {
+        padding: 100px 15%;
+    }
+}
+
+
 @media (max-width: 768px) {
     .enterprises {
         padding: 100px 10%;
