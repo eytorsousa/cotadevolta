@@ -1,7 +1,7 @@
 
 # 🌿 Cota de Volta
 
-> Plataforma comercial de análise de extratos de consórcio e recuperação de valores — em produção na Vercel.
+> Plataforma comercial de análise de extratos de consórcio e recuperação de valores.
 
 ---
 
