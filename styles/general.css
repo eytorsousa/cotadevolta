@@ -7,9 +7,6 @@
     --white: #f7f5f0;
     --gray: #f3f0e9;
     --font-family: 'Poppins', 'Arial', sans-serif;
-}
-
-:root {
     --swiper-pagination-color: var(--green);
     --swiper-navigation-color: var(--green);
 }
