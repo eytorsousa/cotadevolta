@@ -69,3 +69,15 @@ z-index: 1000;
     justify-content: center;
     width: 160px;
 }
+
+@media (max-width: 600px) { 
+  .wpp_btn {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .chat {
+    bottom: 15px;
+    right: 80px;
+  }
+}
