@@ -35,7 +35,7 @@ O projeto está em produção e acessível publicamente via **Netlify**.
 | Ambiente | URL |
 |---|---|
 | Produção | [cotadevolta.netlify.app](https://cotadevolta.netlify.app) |
-| Repositório | [github.com/eytorsousa/cotadevolta](https://github.com/eytorlima/cotadevolta) |
+| Repositório | [github.com/eytorlima/cotadevolta](https://github.com/eytorlima/cotadevolta) |
 
 ---
 
